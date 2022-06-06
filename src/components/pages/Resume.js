@@ -5,7 +5,7 @@ function Resume() {
     <section className="resume">
       <h1>Resume</h1>
       <p>
-        Download my <a href="javascript:;">resume</a>
+        Download my <a href="/">resume</a>
       </p>
       <div className="front-end-stack">
         <h3>Font-end Proficiencies</h3>

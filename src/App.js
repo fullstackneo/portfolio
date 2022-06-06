@@ -19,11 +19,14 @@ function App() {
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
       />
-      {currentTab === 'About me' && <About />}
+      {/* {currentTab === 'About me' && <About />}
       {currentTab === 'Portfolio' && <Portfolio />}
       {currentTab === 'Contact' && <Contact />}
-      {currentTab === 'Resume' && <Resume />}
-
+      {currentTab === 'Resume' && <Resume />} */}
+      <About />
+      <Portfolio />
+      <Contact />
+      <Resume />
       <Footer />
     </div>
   );

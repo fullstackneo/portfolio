@@ -32,7 +32,7 @@ function Contact() {
     }
   }
 
-  console.log('errorMessage', errorMessage);
+  // console.log('errorMessage', errorMessage);
 
   function handleSubmit(e) {
     e.preventDefault();

@@ -9,6 +9,7 @@
 body {
   /* background-color: rgb(216, 234, 210); */
   margin: 0 auto;
+  padding: 0 25px;
 }
 
 html,
@@ -144,14 +145,9 @@ footer a:hover {
   color: rgb(7, 124, 170);
 }
 
-/* section style  */
-section {
-  padding: 0 20px;
-}
-
 /* project style  */
 .portfolio {
-  margin: 15px;
+  /* margin: 15px; */
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; */
@@ -346,14 +342,11 @@ section {
   font-size: 15px;
   cursor: pointer;
   padding: 5px 10px;
-  background-color: #fff;
+
   /* border: 1px solid rgb(27, 150, 199); */
   border-style: none;
-  border: 1px solid rgb(29, 29, 29);
-  border-radius: 2px;
-}
 
-#contact-form button:hover {
+  border-radius: 2px;
   border: 1px solid rgb(27, 150, 199);
   background-color: rgb(27, 150, 199);
   color: white;
@@ -374,4 +367,71 @@ section {
 
 .resume a {
   color: rgb(27, 150, 199);
+}
+
+/* responsive style  */
+@media screen and (min-width: 600px) {
+  .toggleMenu {
+    display: none;
+  }
+
+  nav {
+    height: 35px;
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+  }
+
+  nav ul {
+    display: flex;
+    /* height: 34px; */
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    line-height: 34px;
+    border: none;
+
+    padding: 0 20px;
+  }
+
+  nav ul li:last-child {
+    border: none;
+  }
+
+  .menu-active {
+    height: 34px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .portfolio h1 {
+    flex: 0 0 100%;
+    /* flex: none; */
+  }
+  .project {
+    flex: 0 0 45%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
 }
