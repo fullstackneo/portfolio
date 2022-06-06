@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 
-function Header({ navList }) {
+function Header({
+  navList,
+  toggleMenu,
+  currentTab,
+  contactSelected,
+  setContactSelected,
+  setCurrentTab,
+}) {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   function toggleMenu() {
@@ -16,6 +23,10 @@ function Header({ navList }) {
           isMenuOpen={isMenuOpen}
           toggleMenu={toggleMenu}
           navList={navList}
+          currentTab={currentTab}
+          setCurrentTab={setCurrentTab}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
         />
       </header>
     </>

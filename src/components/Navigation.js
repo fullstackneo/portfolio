@@ -1,11 +1,26 @@
 import React from 'react';
 
-function Navigation({ navList, isMenuOpen, toggleMenu }) {
+function Navigation({
+  navList,
+  isMenuOpen,
+  toggleMenu,
+  currentTab,
+  contactSelected,
+  setContactSelected,
+  setCurrentTab,
+}) {
   return (
-    <nav className={isMenuOpen ? 'nav-active' : undefined}>
+    <nav className={isMenuOpen ? 'menu-active' : undefined}>
       <ul>
         {navList.map(item => (
-          <li onClick={toggleMenu} key={item}>
+          <li
+            className={currentTab === item ? 'currentTab' : undefined}
+            onClick={() => {
+              toggleMenu(!isMenuOpen);
+              setCurrentTab(item);
+            }}
+            key={item}
+          >
             {item}
           </li>
         ))}
