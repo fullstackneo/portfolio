@@ -3,8 +3,12 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <a href="./"></a>
-      <a href="./"></a>
+      <a target="_blank" href="https://github.com/fullstackneo">
+        
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/">
+        
+      </a>
     </footer>
   );
 }
