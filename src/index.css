@@ -375,3 +375,80 @@ section {
 .resume a {
   color: rgb(27, 150, 199);
 }
+<<<<<<< Updated upstream
+=======
+
+.resume ul {
+  margin-left: 20px;
+}
+
+.resume ul li {
+  margin-top: 5px;
+}
+/* responsive style  */
+@media screen and (min-width: 600px) {
+  .toggleMenu {
+    display: none;
+  }
+
+  nav {
+    height: 35px;
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+  }
+
+  nav ul {
+    display: flex;
+    /* height: 34px; */
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    line-height: 34px;
+    border: none;
+
+    padding: 0 20px;
+  }
+
+  nav ul li:last-child {
+    border: none;
+  }
+
+  .menu-active {
+    height: 34px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .portfolio h1 {
+    flex: 0 0 100%;
+    /* flex: none; */
+  }
+  .project {
+    flex: 0 0 45%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+}
+>>>>>>> Stashed changes
