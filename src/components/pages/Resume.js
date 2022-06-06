@@ -21,13 +21,13 @@ function Resume() {
     <section className="resume">
       <h1>Resume</h1>
       <p>
-        Download my <a href="javascript:;">resume</a>
+        Download my <a href="/">resume</a>
       </p>
       <div className="front-end-stack">
         <h3>❤️ Font-end Proficiencies</h3>
         <ul>
           {frontEnd.map(item => (
-            <li> {item}</li>
+            <li key={item}> {item}</li>
           ))}
         </ul>
       </div>
@@ -35,7 +35,7 @@ function Resume() {
         <h3>😀 Back-end Proficiencies</h3>
         <ul>
           {backEnd.map(item => (
-            <li> {item}</li>
+            <li key={item}> {item}</li>
           ))}
         </ul>
       </div>

@@ -3,15 +3,18 @@ import React from 'react';
 function Footer() {
   const contacts = [
     {
+      name: 'github',
       icon: '',
       link: 'https://github.com/fullstackneo',
     },
     {
+      name: 'linkedin',
       icon: '',
       link: 'https://www.linkedin.com/',
     },
     ,
     {
+      name: 'stackoverflow',
       icon: '',
       link: 'https://stackoverflow.com/users/17909748/fullstackneo/',
     },
@@ -19,7 +22,7 @@ function Footer() {
   return (
     <footer>
       {contacts.map(item => (
-        <a target="_blank" href={item.link}>
+        <a key={item.name} target="_blank" href={item.link}>
           {item.icon}
         </a>
       ))}
