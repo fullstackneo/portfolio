@@ -27,7 +27,7 @@ function Project() {
       page: 'https://blue-it-dinosaur.herokuapp.com/',
     },
     {
-      name: 'Blue IT',
+      name: 'Blue IT2',
       skills: 'JS/Node/Mysql',
       imgSrc: 'blue_it.jpg',
       description: 'Blog site allowing CRUD',
@@ -35,7 +35,7 @@ function Project() {
       page: 'https://blue-it-dinosaur.herokuapp.com/',
     },
     {
-      name: 'Blue IT',
+      name: 'Blue IT3',
       skills: 'JS/Node/Mysql',
       imgSrc: 'blue_it.jpg',
       description: 'Blog site allowing CRUD',
@@ -43,7 +43,7 @@ function Project() {
       page: 'https://blue-it-dinosaur.herokuapp.com/',
     },
     {
-      name: 'Blue IT',
+      name: 'Blue IT4',
       skills: 'JS/Node/Mysql',
       imgSrc: 'blue_it.jpg',
       description: 'Blog site allowing CRUD',
@@ -61,12 +61,12 @@ function Project() {
             <div className="mask"></div>
             <img
               className="feature"
-              src={require(`../assets/images/project_feature/${project.imgSrc}`)}
+              src={require(`../../assets/images/project_feature/${project.imgSrc}`)}
               alt={project.name}
             />
             <img
               className="logo"
-              src={require(`../assets/images/project_logo/${project.imgSrc}`)}
+              src={require(`../../assets/images/project_logo/${project.imgSrc}`)}
               alt={`${project.name} logo`}
             />
           </div>

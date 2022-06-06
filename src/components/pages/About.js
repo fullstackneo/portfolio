@@ -7,7 +7,7 @@ function About() {
       <h1>Who am I?</h1>
       <div className="avatar">
         <img
-          src={require('../assets/images/avatar.jpg')}
+          src={require('../../assets/images/avatar.jpg')}
           style={{ width: '100%' }}
           alt="cover"
         />
