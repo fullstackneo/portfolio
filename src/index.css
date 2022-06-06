@@ -142,16 +142,10 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(7, 124, 170);
+  color: rgb(27, 150, 199);
 }
 
 /* project style  */
-.portfolio {
-  /* margin: 15px; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; */
-}
 
 .project {
   height: 230px;
