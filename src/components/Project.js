@@ -3,39 +3,37 @@ import React from 'react';
 function Project() {
   const projects = [
     {
-      name: 'project1 name',
-      skills: 'HTML/JS',
-      imgSrc: 'Park-Advisor.jpg',
-      description: 'lorem lorem lorem lorem lorem',
-      repo: 'https://github.com/fullstackneo',
-      page: 'https://github.com/fullstackneo',
+      name: 'Run Buddy',
+      skills: 'HTML/CSS',
+      imgSrc: 'run_buddy.jpg',
+      description: 'Sports site for health+',
+      repo: 'https://github.com/fullstackneo/Run-Buddy',
+      page: 'https://fullstackneo.github.io/Run-Buddy/',
     },
     {
-      name: 'project2 name',
-      skills: 'HTML/JS',
-      imgSrc: 'Park-Advisor.jpg',
-      description: 'lorem lorem lorem lorem lorem',
-      repo: 'https://github.com/fullstackneo',
-      page: 'https://github.com/fullstackneo',
+      name: 'Park Advisor',
+      skills: 'HTML/CSS/JS',
+      imgSrc: 'park_advisor.jpg',
+      description: 'Travel site for trip advice',
+      repo: 'https://github.com/fullstackneo/Park-Advisor',
+      page: 'https://noahslusher.github.io/NP-trip-planner/',
     },
-    ,
     {
-      name: 'project3 name',
-      skills: 'HTML/JS',
-      imgSrc: 'Park-Advisor.jpg',
-      description: 'lorem lorem lorem lorem lorem',
-      repo: 'https://github.com/fullstackneo',
-      page: 'https://github.com/fullstackneo',
+      name: 'Blue IT',
+      skills: 'JS/Node/Mysql',
+      imgSrc: 'blue_it.jpg',
+      description: 'Blog site allowing CRUD',
+      repo: 'https://github.com/Nesnah1307/blue-it/',
+      page: 'https://blue-it-dinosaur.herokuapp.com/',
     },
-    ,
-    {
-      name: 'project4 name',
-      skills: 'HTML/JS',
-      imgSrc: 'Park-Advisor.jpg',
-      description: 'lorem lorem lorem lorem lorem',
-      repo: 'https://github.com/fullstackneo',
-      page: 'https://github.com/fullstackneo',
-    },
+    // {
+    //   name: 'project4 name',
+    //   skills: 'React',
+    //   imgSrc: 'blue_it.jpg',
+    //   description: 'lorem lorem lorem lorem lorem',
+    //   repo: 'https://github.com/fullstackneo',
+    //   page: 'https://github.com/fullstackneo',
+    // },
   ];
 
   return (
@@ -43,9 +41,16 @@ function Project() {
       {projects.map(project => (
         <div key={project.name} className="project">
           <div className="photo">
+            <div className="mask"></div>
             <img
-              src={require(`../assets/images/${project.imgSrc}`)}
+              className="feature"
+              src={require(`../assets/images/project_feature/${project.imgSrc}`)}
               alt={project.name}
+            />
+            <img
+              className="logo"
+              src={require(`../assets/images/project_logo/${project.imgSrc}`)}
+              alt={`${project.name} logo`}
             />
           </div>
 
