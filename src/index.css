@@ -145,17 +145,12 @@ footer a:hover {
 }
 
 /* section style  */
-section {
-  padding: 0 20px;
+body {
+  padding: 0 25px;
 }
 
 /* project style  */
-.portfolio {
-  margin: 15px;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; */
-}
+
 
 .project {
   height: 230px;
