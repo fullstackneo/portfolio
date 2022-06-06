@@ -142,10 +142,16 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(27, 150, 199);
+  color: rgb(7, 124, 170);
+}
+
+/* section style  */
+body {
+  padding: 0 25px;
 }
 
 /* project style  */
+
 
 .project {
   height: 230px;
@@ -339,12 +345,12 @@ footer a:hover {
 
   /* border: 1px solid rgb(27, 150, 199); */
   border-style: none;
-
   border-radius: 2px;
-  border: 1px solid rgb(27, 150, 199);
+    border: 1px solid rgb(27, 150, 199);
   background-color: rgb(27, 150, 199);
   color: white;
 }
+
 
 .error-text {
   font-style: italic;
@@ -362,7 +368,6 @@ footer a:hover {
 .resume a {
   color: rgb(27, 150, 199);
 }
-
 
 .resume ul {
   margin-left: 20px;
