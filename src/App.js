@@ -1,14 +1,14 @@
 import React from 'react';
-import { Header, Footer, Navigation, Project, Contact }  from './components';
+import { Header, Footer, Project, Contact } from './components';
 
 function App() {
+  const navList = ['About me', 'Portfolio', 'Contact', 'Resume'];
   return (
     <div>
-      <Header />
-      <Navigation />
+      <Header navList={navList} />
       <Project />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

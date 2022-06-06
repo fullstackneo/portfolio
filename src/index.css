@@ -1,13 +1,230 @@
-body {
+/* normalize */
+/* clear margin and padding  */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  /* background-color: rgb(216, 234, 210); */
+  margin: 0 auto;
+}
+
+html,
+textarea,
+input {
+  font-family: open sans;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: open sans;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: open sans;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: open sans;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: open sans;
+}
+
+/* clear element style  */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input,
+select {
+  outline: none;
+  border: none;
+}
+
+/* font icon  */
+@font-face {
+  font-family: 'icomoon';
+  src: url('./assets/fonts/icomoon.eot?gnjb7u');
+  src: url('./assets/fonts/icomoon.eot?gnjb7u#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/icomoon.ttf?gnjb7u') format('truetype'),
+    url('./assets/fonts/icomoon.woff?gnjb7u') format('woff'),
+    url('./assets/fonts/icomoon.svg?gnjb7u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* header style  */
+header {
+  position: relative;
+  /* width: 100%; */
+  /* padding: 10px; */
+  /* background-color: pink; */
+}
+header h1 {
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  color: black;
+}
+
+header > span {
+  font-family: 'icomoon';
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  cursor: pointer;
+  color: rgb(17, 181, 247);
+}
+
+/* menu style  */
+nav {
+  overflow: hidden;
+  transition: 0.2s;
+  height: 0px;
+  cursor: pointer;
+}
+
+.nav-active {
+  height: 137px;
+}
+
+nav li {
+  font-size: 17px;
+  padding: 5px 0;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+nav li:last-child {
+  border-bottom: 1px solid grey;
+}
+
+nav li:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 181, 247);
+}
+
+/* footer style  */
+
+footer {
+  text-align: center;
+}
+footer a {
+  font-family: 'icomoon';
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(150, 150, 150);
+  padding: 20px;
+}
+
+footer a:hover {
+  color: rgb(7, 124, 170);
+}
+
+/* project style  */
+.project-list {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project {
+  height: 230px;
+  width: 270px;
+  /* background-color: pink; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.project .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 230px;
+  width: 270px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.project .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project:hover .photo {
+  top: 20px;
+  left: 115px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+}
+
+.skill {
+  font-size: 14px;
+  /* background-color: yellow; */
+  width: 140px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+.description {
+  padding: 0 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 150px;
+}
+
+.project .action {
+  position: absolute;
+  top: 185px;
+}
+.project a {
+  font-size: 14px;
+  padding: 5px 20px;
+  background-color: rgb(8, 126, 173);
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.project a:hover {
+  color: black;
+  background-color: white;
 }
