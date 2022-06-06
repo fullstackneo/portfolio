@@ -363,6 +363,15 @@ footer a:hover {
   color: rgb(27, 150, 199);
 }
 
+
+.resume ul {
+  margin-left: 20px;
+}
+
+.resume ul li {
+  margin-top: 5px;
+}
+
 /* responsive style  */
 @media screen and (min-width: 600px) {
   .toggleMenu {

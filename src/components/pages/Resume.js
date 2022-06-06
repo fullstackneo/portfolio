@@ -1,6 +1,22 @@
 import React from 'react';
 
 function Resume() {
+  const frontEnd = [
+    'HTML',
+    'CSS',
+    'Javascript',
+    'responsive design',
+    'React',
+    'Bootstrap',
+  ];
+  const backEnd = [
+    'APIs',
+    'Node',
+    'Express',
+    'MySQL, Sequelize',
+    'MongoDB, Mongoose',
+    'REST',
+  ];
   return (
     <section className="resume">
       <h1>Resume</h1>
@@ -8,25 +24,19 @@ function Resume() {
         Download my <a href="/">resume</a>
       </p>
       <div className="front-end-stack">
-        <h3>Font-end Proficiencies</h3>
+        <h3>❤️ Font-end Proficiencies</h3>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>responsive design</li>
-          <li>React</li>
-          <li>Bootstrap</li>
+          {frontEnd.map(item => (
+            <li key={item}> {item}</li>
+          ))}
         </ul>
       </div>
       <div className="back-end-stack">
-        <h3>Back-end Proficiencies</h3>
+        <h3>😀 Back-end Proficiencies</h3>
         <ul>
-          <li>APIs</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MySQL, Sequelize</li>
-          <li>MongoDB, Mongoose</li>
-          <li>REST</li>
+          {backEnd.map(item => (
+            <li key={item}> {item}</li>
+          ))}
         </ul>
       </div>
     </section>
