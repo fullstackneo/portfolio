@@ -18,7 +18,10 @@ function Header({
   return (
     <>
       <header>
-        <h1>Neo Ji</h1> <span onClick={toggleMenu}></span>
+        <a href="/">
+          <h1>Neo Ji</h1>
+        </a>
+        <span onClick={toggleMenu}></span>
         <Navigation
           isMenuOpen={isMenuOpen}
           toggleMenu={toggleMenu}

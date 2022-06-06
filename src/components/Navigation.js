@@ -9,9 +9,9 @@ function Navigation({
   // setContactSelected,
   setCurrentTab,
 }) {
-  
+
   useEffect(() => {
-    document.title = currentTab;
+    document.title = currentTab+' | Neo Ji';
   }, [currentTab]);
 
   return (

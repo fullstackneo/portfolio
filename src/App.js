@@ -23,7 +23,7 @@ function App() {
       {currentTab === 'Portfolio' && <Portfolio />}
       {currentTab === 'Contact' && <Contact />}
       {currentTab === 'Resume' && <Resume />}
-  
+
       <Footer />
     </div>
   );
