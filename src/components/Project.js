@@ -53,7 +53,8 @@ function Project() {
   ];
 
   return (
-    <section className="project-list">
+    <section className="portfolio">
+      <h1>Portfolio</h1>
       {projects.map(project => (
         <div key={project.name} className="project">
           <div className="photo">
