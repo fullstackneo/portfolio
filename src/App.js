@@ -7,7 +7,7 @@ function App() {
     <div>
       <Header navList={navList} />
       <Project />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
     </div>
   );
