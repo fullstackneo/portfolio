@@ -129,6 +129,7 @@ nav li:hover {
 /* footer style  */
 
 footer {
+  margin-top: 30px;
   text-align: center;
 }
 footer a {
@@ -141,6 +142,11 @@ footer a {
 
 footer a:hover {
   color: rgb(7, 124, 170);
+}
+
+/* section style  */
+section {
+  padding: 0 20px;
 }
 
 /* project style  */
@@ -278,3 +284,28 @@ footer a:hover {
   color: black;
   background-color: white;
 }
+
+/* about-me style  */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.about > * {
+  margin-top: 10px;
+  flex: 0 0 1;
+}
+
+.about .avatar {
+  height: 120px;
+}
+
+.about .avatar img {
+  height: 100%;
+  object-fit: contain;
+  /* height: 40px; */
+}
+
+/* contact style  */

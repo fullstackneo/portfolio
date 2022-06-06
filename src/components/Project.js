@@ -26,14 +26,30 @@ function Project() {
       repo: 'https://github.com/Nesnah1307/blue-it/',
       page: 'https://blue-it-dinosaur.herokuapp.com/',
     },
-    // {
-    //   name: 'project4 name',
-    //   skills: 'React',
-    //   imgSrc: 'blue_it.jpg',
-    //   description: 'lorem lorem lorem lorem lorem',
-    //   repo: 'https://github.com/fullstackneo',
-    //   page: 'https://github.com/fullstackneo',
-    // },
+    {
+      name: 'Blue IT',
+      skills: 'JS/Node/Mysql',
+      imgSrc: 'blue_it.jpg',
+      description: 'Blog site allowing CRUD',
+      repo: 'https://github.com/Nesnah1307/blue-it/',
+      page: 'https://blue-it-dinosaur.herokuapp.com/',
+    },
+    {
+      name: 'Blue IT',
+      skills: 'JS/Node/Mysql',
+      imgSrc: 'blue_it.jpg',
+      description: 'Blog site allowing CRUD',
+      repo: 'https://github.com/Nesnah1307/blue-it/',
+      page: 'https://blue-it-dinosaur.herokuapp.com/',
+    },
+    {
+      name: 'Blue IT',
+      skills: 'JS/Node/Mysql',
+      imgSrc: 'blue_it.jpg',
+      description: 'Blog site allowing CRUD',
+      repo: 'https://github.com/Nesnah1307/blue-it/',
+      page: 'https://blue-it-dinosaur.herokuapp.com/',
+    },
   ];
 
   return (
