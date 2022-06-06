@@ -366,3 +366,12 @@ section {
   color: red;
   font-size: 13px;
 }
+
+/* resme style  */
+.resume > div {
+  margin-top: 15px;
+}
+
+.resume a {
+  color: rgb(27, 150, 199);
+}

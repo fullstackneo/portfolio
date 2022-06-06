@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { Header, About, Footer, Portfolio, Contact } from './components';
+import {
+  Header,
+  About,
+  Footer,
+  Portfolio,
+  Contact,
+  Resume,
+} from './components';
 
 function App() {
   const navList = ['About me', 'Portfolio', 'Contact', 'Resume'];
@@ -12,10 +19,11 @@ function App() {
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
       />
-      {currentTab === 'About me' && <About />}
+      {/* {currentTab === 'About me' && <About />}
       {currentTab === 'Portfolio' && <Portfolio />}
       {currentTab === 'Contact' && <Contact />}
-      {currentTab === 'Resume' && <Contact />}
+      {currentTab === 'Resume' && <Resume />} */}
+      <Resume />
       <Footer />
     </div>
   );

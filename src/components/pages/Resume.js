@@ -2,19 +2,32 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section className="about">
-      <h1>Who am I?</h1>
-      <div className="avatar">
-
+    <section className="resume">
+      <h1>Resume</h1>
+      <p>
+        Download my <a href="javascript:;">resume</a>
+      </p>
+      <div className="front-end-stack">
+        <h3>Font-end Proficiencies</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>responsive design</li>
+          <li>React</li>
+          <li>Bootstrap</li>
+        </ul>
       </div>
-
-      <div className="bio">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus
-          ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
-          maximus. Proin aliquam justo nec diam vulputate vestibulum.
-        </p>
+      <div className="back-end-stack">
+        <h3>Back-end Proficiencies</h3>
+        <ul>
+          <li>APIs</li>
+          <li>Node</li>
+          <li>Express</li>
+          <li>MySQL, Sequelize</li>
+          <li>MongoDB, Mongoose</li>
+          <li>REST</li>
+        </ul>
       </div>
     </section>
   );
