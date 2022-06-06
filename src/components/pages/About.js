@@ -9,7 +9,7 @@ function About() {
         <img
           src={require('../../assets/images/avatar.jpg')}
           style={{ width: '100%' }}
-          alt="cover"
+          alt="neo ji"
         />
       </div>
 
