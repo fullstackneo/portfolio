@@ -20,6 +20,17 @@ function About() {
           ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
           maximus. Proin aliquam justo nec diam vulputate vestibulum.
         </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus
+          ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
+          maximus. Proin aliquam justo nec diam vulputate vestibulum. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum
+          turpis sed ex condimentum molestie. Mauris condimentum lectus ut
+          ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
+          maximus. Proin aliquam justo nec diam vulputate vestibulum.
+        </p>
       </div>
     </section>
   );
