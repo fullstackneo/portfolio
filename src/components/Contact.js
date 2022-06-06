@@ -40,7 +40,7 @@ function Contact() {
   }
 
   return (
-    <section>
+    <section className="contact">
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -53,7 +53,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             name="email"
@@ -69,13 +69,9 @@ function Contact() {
             defaultValue={message}
             onBlur={handleChange}
           />
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>
-          )}
         </div>
         <button type="submit">Submit</button>
+        {errorMessage && <p className="error-text">{errorMessage}</p>}
       </form>
     </section>
   );

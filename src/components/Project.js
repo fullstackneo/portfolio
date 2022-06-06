@@ -78,7 +78,7 @@ function Project() {
               Demo
             </a>
             <a target="blank" href="https://github.com/fullstackneo">
-              Repo
+              Github
             </a>
           </div>
         </div>

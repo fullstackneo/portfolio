@@ -50,7 +50,7 @@ img {
 input,
 select {
   outline: none;
-  border: none;
+  /* border: none; */
 }
 
 /* font icon  */
@@ -159,7 +159,7 @@ section {
 
 .project {
   height: 230px;
-  width: 270px;
+  width: 100%;
   /* background-color: pink; */
   padding: 10px;
   display: flex;
@@ -178,7 +178,7 @@ section {
   top: 0;
   left: 0;
   height: 230px;
-  width: 270px;
+  width: 100%;
   text-align: center;
   overflow: hidden;
   transition: all 0.5s;
@@ -192,7 +192,7 @@ section {
   top: 0;
   left: 0;
   height: 230px;
-  width: 270px;
+  width: 100%;
   z-index: 4;
 }
 
@@ -204,7 +204,8 @@ section {
 
 .project:hover .photo {
   top: 20px;
-  left: 115px;
+  left: 50%;
+  transform: translateX(-25px);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -273,16 +274,17 @@ section {
 .project a {
   font-size: 14px;
   padding: 5px 20px;
-  background-color: rgb(8, 126, 173);
-  border: 1px solid white;
-  color: white;
+  /* background-color: rgb(27, 150, 199); */
+  /* border: 1px solid white; */
+  color: rgb(27, 150, 199);
+  border: 1px solid rgb(27, 150, 199);
   border-radius: 5px;
   margin: 0 5px;
 }
 
 .project a:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: rgb(27, 150, 199);
 }
 
 /* about-me style  */
@@ -309,3 +311,58 @@ section {
 }
 
 /* contact style  */
+#contact-form > div {
+  margin-top: 10px;
+  display: flex;
+}
+
+#contact-form label {
+  display: inline-block;
+  width: 70px;
+  margin-right: 10px;
+}
+
+#contact-form input {
+  padding: 5px;
+  flex: 1 0 0;
+  /* width: 400px; */
+  border: 1px solid black;
+  border-radius: 2px;
+  outline: none;
+}
+
+#contact-form textarea {
+  flex: 1 0 0;
+  margin-top: 5px;
+  /* width: 100%; */
+  resize: none;
+  outline: none;
+  padding: 5px;
+}
+
+#contact-form button {
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #fff;
+  /* border: 1px solid rgb(27, 150, 199); */
+  border-style: none;
+  border: 1px solid rgb(29, 29, 29);
+  border-radius: 2px;
+}
+
+#contact-form button:hover {
+  border: 1px solid rgb(27, 150, 199);
+  background-color: rgb(27, 150, 199);
+  color: white;
+}
+
+.error-text {
+  font-style: italic;
+  margin-left: 80px;
+  margin-top: 5px;
+  color: red;
+  font-size: 13px;
+}
