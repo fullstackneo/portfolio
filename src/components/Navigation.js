@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Navigation({
   navList,
@@ -9,6 +9,11 @@ function Navigation({
   // setContactSelected,
   setCurrentTab,
 }) {
+  
+  useEffect(() => {
+    document.title = currentTab;
+  }, [currentTab]);
+
   return (
     <nav className={isMenuOpen ? 'menu-active' : undefined}>
       <ul>
