@@ -346,18 +346,15 @@ section {
   font-size: 15px;
   cursor: pointer;
   padding: 5px 10px;
-  background-color: #fff;
+
   /* border: 1px solid rgb(27, 150, 199); */
   border-style: none;
-  border: 1px solid rgb(29, 29, 29);
   border-radius: 2px;
-}
-
-#contact-form button:hover {
-  border: 1px solid rgb(27, 150, 199);
+    border: 1px solid rgb(27, 150, 199);
   background-color: rgb(27, 150, 199);
   color: white;
 }
+
 
 .error-text {
   font-style: italic;
@@ -375,8 +372,6 @@ section {
 .resume a {
   color: rgb(27, 150, 199);
 }
-<<<<<<< Updated upstream
-=======
 
 .resume ul {
   margin-left: 20px;
@@ -451,4 +446,3 @@ section {
     margin: 0 10px;
   }
 }
->>>>>>> Stashed changes

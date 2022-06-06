@@ -1,14 +1,28 @@
 import React from 'react';
 
 function Footer() {
+  const contacts = [
+    {
+      icon: '',
+      link: 'https://github.com/fullstackneo',
+    },
+    {
+      icon: '',
+      link: 'https://www.linkedin.com/',
+    },
+    ,
+    {
+      icon: '',
+      link: 'https://stackoverflow.com/users/17909748/fullstackneo/',
+    },
+  ];
   return (
     <footer>
-      <a target="_blank" href="https://github.com/fullstackneo">
-        
-      </a>
-      <a target="_blank" href="https://www.linkedin.com/">
-        
-      </a>
+      {contacts.map(item => (
+        <a target="_blank" href={item.link}>
+          {item.icon}
+        </a>
+      ))}
     </footer>
   );
 }

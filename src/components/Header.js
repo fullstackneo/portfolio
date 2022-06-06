@@ -21,7 +21,9 @@ function Header({
         <a href="/">
           <h1>Neo Ji</h1>
         </a>
-        <span onClick={toggleMenu}></span>
+        <span className="toggleMenu" onClick={toggleMenu}>
+          
+        </span>
         <Navigation
           isMenuOpen={isMenuOpen}
           toggleMenu={toggleMenu}
