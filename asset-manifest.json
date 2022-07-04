@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5dfaac27.css",
-    "main.js": "/portfolio/static/js/main.80fbb60e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.4fa24aca.css",
+    "main.js": "/portfolio/static/js/main.2e4a7f9e.js",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.31db99ac15837d5b020b.jpg",
     "static/media/blue_it.jpg": "/portfolio/static/media/blue_it.df502cc8acc5fb5324c1.jpg",
     "static/media/park_advisor.jpg": "/portfolio/static/media/park_advisor.2fa4acd43cb6d5b9b2c5.jpg",
     "static/media/run_buddy.jpg": "/portfolio/static/media/run_buddy.8574718d41c190fff817.jpg",
+    "static/media/stacked.jpg": "/portfolio/static/media/stacked.fe7b15fe93df416c0be5.jpg",
     "static/media/icomoon.svg?gnjb7u": "/portfolio/static/media/icomoon.ed10c04faa9239eac9dc.svg",
     "static/media/icomoon.eot?gnjb7u": "/portfolio/static/media/icomoon.374ac27e6e9b00505673.eot",
     "static/media/icomoon.woff?gnjb7u": "/portfolio/static/media/icomoon.c016c932ac286bbba27f.woff",
     "static/media/icomoon.ttf?gnjb7u": "/portfolio/static/media/icomoon.0fdcabd465a2a74340d5.ttf",
     "index.html": "/portfolio/index.html",
-    "main.5dfaac27.css.map": "/portfolio/static/css/main.5dfaac27.css.map",
-    "main.80fbb60e.js.map": "/portfolio/static/js/main.80fbb60e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.4fa24aca.css.map": "/portfolio/static/css/main.4fa24aca.css.map",
+    "main.2e4a7f9e.js.map": "/portfolio/static/js/main.2e4a7f9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dfaac27.css",
-    "static/js/main.80fbb60e.js"
+    "static/css/main.4fa24aca.css",
+    "static/js/main.2e4a7f9e.js"
   ]
 }
