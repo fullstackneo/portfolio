@@ -59,10 +59,10 @@ function Project() {
           <p className="skill">{project.skills}</p>
           <p className="description">{project.description}</p>
           <div className="action">
-            <a target="blank" href="https://github.com/fullstackneo">
+            <a target="blank" href={project.page}>
               Demo
             </a>
-            <a target="blank" href="https://github.com/fullstackneo">
+            <a target="blank" href={project.repo}>
               Github
             </a>
           </div>
