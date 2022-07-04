@@ -12,7 +12,6 @@ function Footer() {
       icon: '',
       link: 'https://www.linkedin.com/',
     },
-    ,
     {
       name: 'stackoverflow',
       icon: '',
@@ -22,7 +21,7 @@ function Footer() {
   return (
     <footer>
       {contacts.map(item => (
-        <a key={item.name} target="_blank" href={item.link}>
+        <a key={item.name} target="_blank" rel="noreferrer" href={item.link}>
           {item.icon}
         </a>
       ))}
