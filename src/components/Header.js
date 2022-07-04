@@ -5,8 +5,7 @@ function Header({
   navList,
   toggleMenu,
   currentTab,
-  // contactSelected,
-  // setContactSelected,
+
   setCurrentTab,
 }) {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -30,8 +29,6 @@ function Header({
           navList={navList}
           currentTab={currentTab}
           setCurrentTab={setCurrentTab}
-          // contactSelected={contactSelected}
-          // setContactSelected={setContactSelected}
         />
       </header>
     </>

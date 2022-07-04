@@ -5,8 +5,6 @@ function Navigation({
   isMenuOpen,
   toggleMenu,
   currentTab,
-  // contactSelected,
-  // setContactSelected,
   setCurrentTab,
 }) {
 

@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import {
   Header,
-  About,
   Footer,
+} from './components';
+
+import {
+  About,
   Portfolio,
   Contact,
   Resume,
-} from './components';
+} from './pages';
+
 
 function App() {
   const navList = ['About me', 'Portfolio', 'Contact', 'Resume'];
