@@ -3,9 +3,7 @@ import Navigation from './Navigation';
 
 function Header({
   navList,
-  toggleMenu,
   currentTab,
-
   setCurrentTab,
 }) {
   const [isMenuOpen, setMenuOpen] = useState(false);

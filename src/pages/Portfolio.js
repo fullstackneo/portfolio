@@ -45,12 +45,12 @@ function Project() {
             <div className="mask"></div>
             <img
               className="feature"
-              src={require(`../../assets/images/project_feature/${project.imgSrc}`)}
+              src={require(`../assets/images/project_feature/${project.imgSrc}`)}
               alt={project.name}
             />
             <img
               className="logo"
-              src={require(`../../assets/images/project_logo/${project.imgSrc}`)}
+              src={require(`../assets/images/project_logo/${project.imgSrc}`)}
               alt={`${project.name} logo`}
             />
           </div>
